@@ -5,6 +5,7 @@ class Knyga:
         self.autorius = autorius
         self.knygos_vieta = knygos_vieta
         self.kategorija = kategorija
+        self.paemimo_data = None  # Priskiriam None, nes ši informacija bus nustatoma vėliau
 
     def patikrinti_galimybe_pasirinkti(self):
         pass
